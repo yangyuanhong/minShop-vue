@@ -1,0 +1,164 @@
+/*
+ *这个文件是修改vant样式文件 
+ */
+.container .nav-wrap .van-tabs--line .van-tabs__wrap {
+  height: 2.62rem;
+}
+
+.container .nav-wrap .van-tabs {
+  font-size: 1.15757rem;
+  white-space: nowrap;
+}
+
+.container .nav-wrap .van-tab {
+  font-size: 1.15757rem;
+  padding: 0 1.13rem;
+  line-height: 2.62rem;
+}
+
+.app-header-title .van-image__img {
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0.5rem;
+}
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+}
+#app,
+body,
+html {
+  font-size: 1rem;
+}
+* {
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+#app {
+  position: static;
+  font-family: Helvetica Neue, Tahoma, Arial, PingFangSC-Regular,
+    Hiragino Sans GB, Microsoft Yahei, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #3c3c3c;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+.app-shell {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+}
+.container.fluid {
+  max-width: 100%;
+  width: 100%;
+}
+.app-shell .app-view-wrapper .app-view.app-view-with-footer {
+  padding-bottom: 52px;
+}
+.app-shell .app-view-wrapper .app-view {
+  background: #fff;
+  color: #3c3c3c;
+}
+.content {
+  background: #f5f5f5 !important;
+}
+img[lazy='loaded'] {
+  -webkit-animation: opacity01 0.3s;
+  animation: opacity01 0.3s;
+}
+img {
+  outline: 0;
+}
+
+img {
+  border-style: none;
+}
+.align-center {
+  -webkit-box-align: center;
+  -webkit-align-item: center;
+  align-items: center;
+}
+
+:after,
+:before {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+.price {
+  position: relative;
+  padding-left: 0.7rem;
+  line-height: 0.9rem;
+}
+.price:before {
+  content: '\A5';
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  font-size: 1.01rem;
+  text-decoration: none;
+}
+.box-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box-flex > *,
+.box-inline-flex > * {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  outline: 0;
+  text-decoration: none;
+}
+.justify-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.ui-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+.justify-space-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.ui-line {
+  height: 0.887rem;
+  background: #f5f5f5;
+  overflow: hidden;
+  clear: both;
+}

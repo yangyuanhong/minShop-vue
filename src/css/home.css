@@ -1,0 +1,24 @@
+.container .bodys {
+  padding-bottom: 52px;
+  position: absolute;
+  top: 6.19rem;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: #fff;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1),
+    -webkit-transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.container .bodys .swiper {
+  height: calc(100vh - 7rem - 50px);
+}
+.container .bodys .text {
+  font-size: 18px;
+  text-align: left;
+  padding: 30px;
+  height: auto;
+  box-sizing: border-box;
+}

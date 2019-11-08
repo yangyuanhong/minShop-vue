@@ -1,0 +1,46 @@
+.container .bodys {
+  padding-bottom: 52px;
+  position: absolute;
+  top: 6.19rem;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: #fff;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1),
+    -webkit-transform 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+
+  .swiper {
+    height: calc(100vh - 6.36rem - 50px);
+    overflow: hidden;
+  }
+  .text {
+    box-sizing: border-box;
+    height: auto;
+  }
+  .component-list-main .cells_auto_fill .items {
+    height: auto !important;
+    display: block;
+  }
+  .component-list-main .cells_auto_fill.multi_cell {
+    position: relative;
+    .items {
+      display: block;
+      height: auto !important;
+      position: absolute;
+    }
+  }
+}
+.box-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box-flex > *,
+.box-inline-flex > * {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}

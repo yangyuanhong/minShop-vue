@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>mminshop-vue</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <script type="text/javascript">
+      (function (doc, win) {
+         var docEl = doc.documentElement,
+           resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+           recalc = function () {
+             var clientWidth = docEl.clientWidth;
+             if (!clientWidth) return;
+             docEl.style.fontSize = 10 * (clientWidth / 320) + 'px';//其中“20”根据你设置的html的font-size属性值做适当的变化
+           };
+   
+         if (!doc.addEventListener) return;
+         win.addEventListener(resizeEvt, recalc, false);
+         doc.addEventListener('DOMContentLoaded', recalc, false);
+       })(document, window);
+   </script>
+    <!-- <script>
+      let htmlwidth = document.documentElement.clientWidth || document.body.clientWidth;
+      let htmlDom = document.getElementsByTagName('html')[0];
+      if(htmlwidth>750){htmlwidth=750}
+      htmlDom.style.fontSize = htmlwidth/20 + 'px';
+    </script> -->
+  </body>
+</html>
